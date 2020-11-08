@@ -1,0 +1,15 @@
+if(n==1 && choice==1) {
+                printf("Tie, Both chose rocks");
+            }
+
+            else if (n==1 && choice==2) {
+                printf("Computer won, it chose rocks");
+            }
+
+            else if (n==2 && choice==1) {
+                printf("You won, computer chose paper");
+            }
+
+            else if (n==3 && choice==1) {
+                printf("You won, computer chose scissors");
+            }
